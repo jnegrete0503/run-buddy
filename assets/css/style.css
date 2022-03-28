@@ -69,6 +69,7 @@ header {
   section {
     padding: 60px;
   }
+
 /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpeg");
@@ -92,8 +93,8 @@ header {
     width: 500px;
     color: #024e76;
     position: absolute;
-    bottom: 120px;
-    right: 140px;
+    bottom: 0px;
+    right: 0px;
   }
 .hero-form {
     background-color: #fce138;
@@ -119,14 +120,14 @@ header {
   margin: 5px 0 15px 0;
 }
 
-.form-input {
+.hero-form input {
   border: 1px solid #024e76;
   display: block;
-  padding: 7px 15px;
+  padding: 7px 10px;
   font-size: 16px;
   color: #024e76;
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .hero-form label {
   margin: 0 5px;
